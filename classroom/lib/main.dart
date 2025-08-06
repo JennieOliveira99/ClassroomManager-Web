@@ -1,4 +1,4 @@
-import 'package:classroom/start_page/register_page_desktop.dart';
+import 'screen/start_page/register_page_desktop.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: const Color(0xFF2F5C4A),
         colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: Colors.green, // Base do MaterialColor
+          primarySwatch: Colors.green,
         ).copyWith(primary: const Color(0xFF2F5C4A)),
       ),
       home: const RegisterPageDesktop(),

@@ -2,7 +2,7 @@ import 'package:classroom/model/login.dart';
 import 'package:classroom/service/login_service.dart';
 import 'package:classroom/src/custom_font_style.dart';
 import 'package:classroom/src/theme.dart';
-import 'package:classroom/start_page/register_page_desktop.dart';
+import 'register_page_desktop.dart';
 import 'package:classroom/widget/custom_text_field.dart';
 import 'package:classroom/widget/toast_util.dart';
 import 'package:flutter/material.dart';
@@ -49,7 +49,11 @@ class _LoginPageDesktopState extends State<LoginPageDesktop> {
         child: Container(
           // height: 475,
           width: 940,
-          color: Colors.white,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(16),
+            color: Colors.white,
+          ),
+
           child: Row(
             children: [
               Container(
